@@ -77,38 +77,14 @@ nav a:hover {
 
 .principal {
     display: flex;
-    margin-bottom: 100px;
-    width: 100%;
-    padding: 50px;
-}
-
-.banner {
-    float: left;
-    margin-top: 20px;
-    width: 19%;
-    height: 95%;
-    background: linear-gradient(#1e1c1c, #100e0e, #080808, black, #1e1c1c);
-    border-radius: 20px;
-    opacity: 70%;
-}
-
-#banner {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    width: 70%;
+    margin: 1%;
     height: auto;
-
-
-
-
 }
 
 .conteudo {
     float: right;
-    width: 90%;
-    height: 95%;
+    width: 69%;
+    height: auto;
     background-color: #161616;
     margin-top: 20px;
     border-radius: 10px;
@@ -141,68 +117,17 @@ p {
 }
 
 
-.main {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    height: auto;
-}
 
-.texto {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    width: 100%;
-    margin-top: 60px;
-}
 
-.texto .designers img {
-    max-width: 100%;
-    width: 300px;
-    margin-top: 20px;
 
-    height: auto;
-    max-width: auto;
-}
 
-.texto .designers img:hover {
-    width: 500px;
-    position: relative;
 
-}
-
-.design {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    padding: 10px;
-    background-color: #1e1b1b;
-    border-radius: 10px;
-}
-
-.texto .designers {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-
-}
 
 .texto p {
     width: 100%;
     margin-top: 1px;
 
 }
-
-.texto h3 {
-    margin-top: 20px;
-    padding: 20px;
-    color: #f8f8f8;
-
-}
-
-
-
 
 p {
     margin: 20px;
@@ -227,6 +152,70 @@ footer h3 {
     color: #fff;
 }
 
-.texto p {
+.main-contatos {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contatos {
+    width: 100%;
+    padding: 20px;
+    background-color: #1e1c1c;
+    height: auto;
+    opacity: 80%;
+    border-radius: 10px;
+}
+
+.img-logos {
+    width: 69px;
+    height: 69px;
+}
+
+.img-logos:hover {
+    width: 80px;
+    height: 80px;
+}
+
+.elements {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     margin-top: 10px;
+    background-color: #161616;
+    border-radius: 20px;
+
+
+}
+
+.contatos h3 {
+    color: #f8f8f8;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.contatos .elements p {
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 0 auto;
+}
+
+.contatos a {
+    text-decoration: none;
+    margin-left: 30%;
+}
+
+.contatos p:hover {
+    color: #f04141;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+hr {
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 1px;
 }

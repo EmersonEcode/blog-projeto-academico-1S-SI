@@ -1,57 +1,61 @@
-*{
+* {
     padding: 0 auto;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
 
-body{
-    background: linear-gradient(#000000,#000000,#4F0C0C);
+body {
+    background: linear-gradient(#000000, #000000, #4F0C0C);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     height: auto;
+    overflow-x: hidden; /* Impede a rolagem horizontal */
 }
 
-nav{
+nav {
     background-color: #4F0C0C;
 
 }
 
 
-header{
+header {
     width: 100%;
     display: flex;
     flex-direction: row;
     height: 80px;
-    background: linear-gradient(#1e1c1c,#100e0e,#080808,black,#1e1c1c);
+    background: linear-gradient(#1e1c1c, #100e0e, #080808, black, #1e1c1c);
     color: white;
 
-    
+
 
 }
-ul{
+
+ul {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
 }
-li{
-   display: inline;
-   margin: 10px;
-   /* background-color: #4F0C0C; */
-   width: 10px;
-   height: 40px;
+
+li {
+    display: inline;
+    margin: 10px;
+    /* background-color: #4F0C0C; */
+    width: 10px;
+    height: 40px;
 }
 
 
-.logo{
+.logo {
     width: 10%;
     height: 90%;
-    
+
     margin-left: 3%;
     margin-top: 5px;
 
 }
-a{
+
+a {
     text-decoration: none;
     color: #fffafa;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -62,31 +66,45 @@ a{
     border-color: #ffffff;
 }
 
-a:hover{
+a:hover {
     color: #f8f8f8;
-    background: linear-gradient(#4F0C0C ,#100e0e,#080808,black,#4F0C0C);
+    background: linear-gradient(#4F0C0C, #100e0e, #080808, black, #4F0C0C);
     border: none;
     padding-inline-end: 10px;
 }
-#logo{
-    margin:10px;
+
+#logo {
+    margin: 10px;
     height: 60%;
 }
 
-.principal{
+#logo-footer {
+    margin: 10px;
+    height: 60%;
+}
+
+.element {
     display: flex;
     margin: 1%;
     height: 500px;
-    
+    width: 100%;
+
 }
-.banner{
-  float: left;
-  margin-top: 20px;
-  width: 49%;
-  height: 80%;
-    
+
+main {
+    width: 100%;
+
 }
-#banner{
+
+.banner {
+    float: left;
+    margin-top: 20px;
+    width: 49%;
+    height: 80%;
+
+}
+
+#banner {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -94,11 +112,11 @@ a:hover{
     width: 70%;
     height: auto;
 
-  
+
 
 }
 
-.conteudo{
+.conteudo {
     float: right;
     width: 49%;
     height: 95%;
@@ -106,15 +124,15 @@ a:hover{
     border-radius: 10px;
     padding: 10px;
 
-   }
-
-   
+}
 
 
-   
-   
 
-.conteudo-2{
+
+
+
+
+.conteudo-2 {
     float: right;
     width: 49%;
     height: 100%;
@@ -122,17 +140,18 @@ a:hover{
     padding: 10px;
 }
 
-#code{
+#code {
     display: flex;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px;
-   
+
+
 }
 
-.code{
-   
+.code {
+
     display: flex;
     width: 90%;
     height: 400px;
@@ -141,24 +160,16 @@ a:hover{
     border-radius: 20px;
 }
 
-#css{
-    display: flex;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
 
-}
-
-header p{
-    color:white;
+header p {
+    color: white;
     font-size: 25px;
     width: 60%;
 }
 
 
 
-.my-img{
+.my-img {
     width: 200px;
     height: 200px;
     border-radius: 200px;
@@ -166,49 +177,40 @@ header p{
     padding: 5px;
 }
 
-#my-img{
-    width: 100%;
-    height: 100%;
-    
-    border-radius: 100%;
 
-    
-    background-color: aliceblue;
+
+.eu {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
 }
 
-
-.eu{
-display: flex;
-flex-direction: row;
-margin: 10px;
-}
-
-p{
+p {
     text-align: justify;
     margin: 20px;
 }
 
-footer{
-     width: 100%;
+footer {
+    width: 100%;
     height: 70px;
-    background: linear-gradient(#1e1c1c,#100e0e,#080808,black,#1e1c1c);
+    background: linear-gradient(#1e1c1c, #100e0e, #080808, black, #1e1c1c);
     flex-direction: row;
     display: flex;
 }
 
-.text-main{
+.text-main {
     font-size: 50px;
     width: 90%;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
 
 }
 
-footer .logo{
+footer .logo {
     margin-left: auto;
 }
 
-footer h3{
+footer h3 {
     margin-right: auto;
     margin-top: 10px;
 }
